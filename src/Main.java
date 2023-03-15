@@ -16,13 +16,14 @@ public class Main {
         System.out.println("Horas que trabaja:" + abogado.getHoras());
         System.out.println("Días de vacaciones: " + abogado.getVacaciones());
 
-        Empleado secretario = new Secretario();
+        Secretario secretario = new Secretario();
         System.out.println("El secretario, su información es:");
         System.out.println("Salario: " + secretario.getSalario());
         System.out.println("Mes de vacaciones:" + secretario.getMesVacaciones());
         System.out.println("Horas que trabaja:" + secretario.getHoras());
         System.out.println("Días de vacaciones: " + secretario.getVacaciones());
 
+        secretario.Entrar();
 
     }
 }

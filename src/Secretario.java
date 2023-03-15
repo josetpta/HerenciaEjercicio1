@@ -25,4 +25,6 @@ public class Secretario extends Empleado {
         return super.getMesVacaciones();
     }
 
+
+
 }

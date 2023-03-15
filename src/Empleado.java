@@ -12,6 +12,12 @@ public class Empleado {
         return 10; // 2 semanas
     }
     public String getMesVacaciones() {
-        return "Agosto"; } // mes de vacaciones
+        return "Agosto";
+    } // mes de vacaciones
+
+    public void Entrar()
+    {
+
+    }
 
 }
